@@ -1,6 +1,25 @@
 {
+	"name": "jiayx/raam",
+    "type": "project",
+    "description": "The Raam Framework.",
+    "keywords": ["framework", "raam"],
+    "license": "MIT",
+    "homepage": "https://jiayx.net",
+    "authors": [
+        {
+            "name": "Jiayx",
+            "email": "i@jiayx.net",
+            "homepage": "https://jiayx.net"
+        }
+    ],
 	"require": {
+		"php": ">=5.4.0",
 		"jiayx/raam-framework": "dev-master"
 	},
+	"autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
 	"minimum-stability":"dev"
 }
