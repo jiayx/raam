@@ -1,0 +1,6 @@
+{
+	"require": {
+		"jiayx/raam-framework": "dev-master"
+	},
+	"minimum-stability":"dev"
+}
