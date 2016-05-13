@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jiayx/raam-framework.git",
-                "reference": "fe2c896c95ccbf995159f122dfb93855aee8da7a"
+                "reference": "acd44cf47b218b8e076284c3edcc490dd08e1d09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jiayx/raam-framework/zipball/fe2c896c95ccbf995159f122dfb93855aee8da7a",
-                "reference": "fe2c896c95ccbf995159f122dfb93855aee8da7a",
+                "url": "https://api.github.com/repos/jiayx/raam-framework/zipball/acd44cf47b218b8e076284c3edcc490dd08e1d09",
+                "reference": "acd44cf47b218b8e076284c3edcc490dd08e1d09",
                 "shasum": ""
             },
             "require": {
@@ -27,7 +27,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "raam\\": "src"
+                    "Raam\\": "src/Raam"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -47,7 +47,7 @@
                 "framework",
                 "raam"
             ],
-            "time": "2016-05-13 11:34:42"
+            "time": "2016-05-13 12:05:28"
         }
     ],
     "packages-dev": [],
