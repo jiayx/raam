@@ -15,3 +15,5 @@ define('ROOT_PATH', realpath(__DIR__ . '/../') . DIRECTORY_SEPARATOR);
 defined('STDIN') AND chdir(ROOT_PATH);
 
 require ROOT_PATH . 'bootstrap' . DIRECTORY_SEPARATOR .'bootstrap.php';
+
+print_r($app);
